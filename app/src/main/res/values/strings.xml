@@ -3,7 +3,10 @@
     <string name="textView_Main_Judul">Program Menghitung Persegi</string>
     <string name="imageView_Main_Bg">Main Background</string>
     <string name="textView_Main_Panjang">Masukan Panjang</string>
+    <string name="editText_Main_Panjang">Silakan Masukan Panjang</string>
     <string name="textView_Main_Lebar">Masukan Lebar</string>
+    <string name="editText_Main_Lebar">Silakan Masukan Lebar</string>
     <string name="textView_Main_Password">Masukan Password</string>
+    <string name="editText_Main_Password">Silakan Masukan Password</string>
     <string name="button_Main_Hitung">Hitung</string>
 </resources>

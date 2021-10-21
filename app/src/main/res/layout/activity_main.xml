@@ -10,12 +10,13 @@
         android:id="@+id/imageView_Main_Bg"
         android:layout_width="50dp"
         android:layout_height="0dp"
-        android:scaleType="fitXY"
         android:contentDescription="@string/imageView_Main_Bg"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg" />
+        app:srcCompat="@drawable/bg"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textView_Main_Judul"
@@ -46,9 +47,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:autofillHints="@string/editText_Main_Panjang"
         android:ems="10"
-        android:hint="@string/textView_Main_Panjang"
-        android:autofillHints="@string/textView_Main_Panjang"
+        android:hint="@string/editText_Main_Panjang"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView_Main_Bg"
         app:layout_constraintTop_toBottomOf="@+id/textView_Main_Panjang" />
@@ -71,9 +73,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:autofillHints="@string/editText_Main_Lebar"
         android:ems="10"
-        android:hint="@string/textView_Main_Lebar"
-        android:autofillHints="@string/textView_Main_Lebar"
+        android:hint="@string/editText_Main_Lebar"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView_Main_Bg"
         app:layout_constraintTop_toBottomOf="@+id/textView_Main_Lebar" />
@@ -91,14 +94,15 @@
 
     <EditText
         android:id="@+id/editText_Main_Password"
+        style="@style/editTextPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:autofillHints="@string/editText_Main_Password"
         android:ems="10"
-        android:hint="@string/textView_Main_Password"
-        android:autofillHints="@string/textView_Main_Password"
-        style="@style/editTextPassword"
+        android:hint="@string/editText_Main_Password"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView_Main_Bg"
         app:layout_constraintTop_toBottomOf="@+id/textView_Main_Password" />
