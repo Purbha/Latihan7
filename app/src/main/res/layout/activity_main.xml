@@ -20,11 +20,11 @@
 
     <TextView
         android:id="@+id/textView_Main_Judul"
+        style="@style/textViewJudul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        style="@style/textViewJudul"
         android:text="@string/textView_Main_Judul"
         app:layout_constraintStart_toEndOf="@+id/imageView_Main_Bg"
         app:layout_constraintTop_toTopOf="parent" />
@@ -53,7 +53,8 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView_Main_Bg"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Panjang" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Panjang"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView_Main_Lebar"
@@ -79,7 +80,8 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView_Main_Bg"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Lebar" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Lebar"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView_Main_Password"
@@ -105,7 +107,8 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView_Main_Bg"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Password" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Password"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button_Main_Hitung"
